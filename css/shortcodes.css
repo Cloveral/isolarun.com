@@ -1,0 +1,81 @@
+@-webkit-keyframes sprite-animation {
+  from {
+    background-position: 0 0;
+  }
+}
+@keyframes sprite-animation {
+  from {
+    background-position: 0 0;
+  }
+}
+/*
+* @package      Shortcodes
+* @description  This package holds style declarations for
+*               shortcodes page
+*/
+/*
+ * @subsection   Icon Box
+ */
+.icon-box {
+  position: relative;
+  padding: 8px 20px 8px 45px;
+  transition: .3s all ease;
+  border-radius: 5px;
+  font-size: 16px;
+}
+@media (min-width: 768px) {
+  .icon-box {
+    font-size: 19px;
+  }
+}
+
+.icon-box:hover {
+  color: #fff;
+  background: #27c9ff;
+  box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.11);
+}
+
+.icon-box:before {
+  position: absolute;
+  left: 5px;
+  font-size: 1.4em;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.btn {
+  transition: .3s ease-out;
+}
+
+.btn-default {
+  color: #fff;
+  background: #303334;
+}
+.btn-default:hover {
+  color: #31ccff;
+}
+
+.btn-primary {
+  color: #fff;
+  background: #31ccff;
+}
+.btn-primary:hover {
+  color: #303334;
+}
+
+* + .container {
+  margin-top: 60px;
+}
+
+* + .row {
+  margin-top: 45px;
+}
+
+h2 + .inline-list {
+  margin-top: 45px;
+}
+
+h4 + h2 {
+  margin-top: 30px;
+}

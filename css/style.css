@@ -9370,7 +9370,7 @@ html:not(.lt-ie10) .not-animated {
     left: 0;
     right: 0;
     bottom: 0;
-    top: 25%;
+    top: 15%;
     z-index: 1; }
     .gm-wrap--offset-1 {
       top: 21%; }
@@ -13323,7 +13323,7 @@ a.icon.icon-xs.icon-primary.icon-round.fa-instagram {
 }
 
 .supporters{
-  margin-top: 1024px;
+  margin-top: 750px;
 }
 @media (max-width: 1199px) {
   .supporters{
